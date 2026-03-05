@@ -12,6 +12,7 @@ CREATE COMPUTE MODULE learning_Compute
 		set outRef.Company = inRef.Company;
 		
 		SET outRef.Departments.Item[1].DeptName = inRef.Departments.Item[2].DeptName;
+		SET outRef.greet = "thank you";
 
 
 		RETURN TRUE;
